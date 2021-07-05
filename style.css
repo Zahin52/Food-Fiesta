@@ -1,4 +1,248 @@
-body{
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* 
+##########################
+Some common css
+########################## 
+*/
+.flex-content {
+    display: flex;
+    /* padding: 10px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.padding-t-15 {
+    padding-top: 15px;
+}
+
+.padding-25 {
+    padding: 25px;
+}
+
+.padding-r-25 {
+    padding-right: 25px;
+}
+
+
+.half-width {
+    width: 40%;
+    padding: 0 20px;
+    margin-left: 50px;
+}
+
+.half-width img {
+    display: block;
+    width: 80%;
+}
+
+.half-width h1 {
+    font-weight: 900;
+    font-size: 2.3em;
+}
+
+.line-height {
+    line-height: 130%;
+}
+
+.margin-y-10 {
+    margin: 10px 0;
+}
+
+.gray {
+    color: #575757;
+}
+
+.light-gray {
+    color: #828282;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.details {
+    color: dimgray;
+    text-align: justify;
+}
+
+.button {
+    display: inline-block;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(90deg, tomato, orange);
+}
+
+/* 
+##########################
+Top section css
+########################## 
+*/
+.top-banner {
+    height: 100vh;
+    background-image: url(./image/bg/banner\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.perallex1 {
+    background-image: url("./image/bg/white\ pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+.perallex2 {
+    background-image: url("./image/bg/good\ food.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+
+}
+
+/* 
+##########################
+middle section css
+########################## 
+*/
+.margin-auto {
+    margin: auto;
+}
+
+.middle-section {
+    height: auto;
+    background-image: url(./image/bg/Frame\ 58.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 25px 25px 0;
+}
+
+.experience-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* 
+##########################
+Card related css
+########################## 
+*/
+.card {
+    padding: 20px 20px 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 45%;
+    height: auto;
+    box-shadow: 2px 5px 17px 2px #dcd3d3;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: orange;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1.05em;
+    color: dimgray;
+}
+
+.card:hover {
+    transform: scale(0.95);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1.5s;
+}
+
+.card-heading {
+    font-size: 2.2em;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    /* color:orange; */
+    font-weight: 700;
+}
+
+.border-left-blue {
+    border-left: 5px solid blue;
+}
+
+.border-left-orange {
+    border-left: 5px solid orange;
+}
+
+/* 
+##########################
+Footer section css
+########################## 
+*/
+.footer {
+    height: auto;
+    background-color: gray;
+    color: white;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.about-me h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+.find-me h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.find-me p {
+    text-align: justify;
+}
+
+.find-me a {
+    list-style: none;
+    color: white;
+}
+
+.mr-3 {
+    margin-right: 10px;
 }
