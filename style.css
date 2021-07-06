@@ -12,7 +12,7 @@ Some common css
 */
 .flex-content {
     display: flex;
-    /* padding: 10px; */
+    padding: 15px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -151,6 +151,8 @@ middle section css
 .experience-title {
     text-align: center;
     font-size: 3em;
+    text-transform: capitalize;
+    color: #676767;
 }
 
 /* 
@@ -161,21 +163,36 @@ Card related css
 .card {
     padding: 20px 20px 30px;
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 30px;
-    width: 45%;
+    /* width: 33%; */
     height: auto;
     box-shadow: 2px 5px 17px 2px #dcd3d3;
-    border-radius: 10px;
+    border-radius: 20px;
+    /* flex: 1; */
+    flex-basis: 28%;
+
 }
 
 .card-title {
-    color: orange;
+    color: #575757;
     font-size: 1.5em;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 .card-text {
     font-size: 1.05em;
     color: dimgray;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 .card:hover {
