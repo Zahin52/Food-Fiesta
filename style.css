@@ -155,6 +155,12 @@ middle section css
     color: #676767;
 }
 
+.experience-details {
+    text-align: center;
+    color: #828282;
+    line-height: 20px;
+}
+
 /* 
 ##########################
 Card related css
@@ -184,6 +190,7 @@ Card related css
 .card-text {
     font-size: 1.05em;
     color: dimgray;
+
 }
 
 .card-image {
