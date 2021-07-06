@@ -345,6 +345,10 @@ Footer section css
     background-color: #575757d5;
 }
 
+.feedback-form {
+    margin: 40px 0;
+}
+
 .feedback-title {
     text-align: center;
     font-size: 3em;
@@ -359,7 +363,7 @@ form {
     margin: auto;
     padding: 25px 50px;
     border-radius: 25px;
-    box-shadow: 0px 0px 30px 0px #575757;
+    box-shadow: 0px 0px 30px 2px #575757;
 }
 
 input[type=text],
@@ -374,8 +378,13 @@ textarea {
     /* resize: vertical; */
 }
 
+label {
+    color: #575757;
+}
+
 input[type=submit] {
-    margin: auto;
+    font-size: 18px;
+    font-weight: 900;
     text-transform: uppercase;
     background: linear-gradient(orange, tomato);
     ;
@@ -384,6 +393,7 @@ input[type=submit] {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    width: 100%;
 }
 
 input[type=submit]:hover {
