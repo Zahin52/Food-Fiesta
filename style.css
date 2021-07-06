@@ -28,7 +28,8 @@ Some common css
 .padding-t-15 {
     padding-top: 15px;
 }
-.padding-t-4p{
+
+.padding-t-4p {
     padding-top: 4%;
 }
 
@@ -115,6 +116,7 @@ a {
 .button:hover {
     background-image: linear-gradient(90deg, tomato, orange);
 }
+
 /* 
 ##########################
 nav section css
@@ -303,6 +305,7 @@ Card related css
 .border-left-orange {
     border-left: 5px solid orange;
 }
+
 /* 
 ##########################
 response section css
@@ -329,6 +332,7 @@ response section css
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20px;
 }
 
 .media-name {
@@ -438,4 +442,3 @@ Footer section css
 .mr-3 {
     margin-right: 10px;
 }
-
